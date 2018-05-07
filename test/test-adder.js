@@ -8,7 +8,7 @@ const adder = require('../adder');
 describe('adder', function() {
 
   // test the normal case
-  it('should add two numbers', function() {
+  it('Should add two numbers.', function() {
     // range of normal inputs, including
     // notable cases like negative answers
     const normalCases = [
@@ -24,7 +24,7 @@ describe('adder', function() {
     });
   });
 
-  it('should raise error if args not numbers', function() {
+  it('Should raise an error if the arguments are not numbers.', function() {
     // range of bad inputs where not both are numbers
     const badInputs = [
       ['a', 1],
